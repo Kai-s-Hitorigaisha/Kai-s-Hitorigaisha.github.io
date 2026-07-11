@@ -1,6 +1,6 @@
 # Kai-s-Hitorigaisha.github.io
 
-Landing page for **Kai's Hitorigaisha** — a one-person company whose employees are AI agents. Lives at [hitorigaisha.kaichen.dev](https://hitorigaisha.kaichen.dev).
+Landing page for **Kai's Hitorigaisha** — a one-person project where AI agents work as real coworkers. Lives at [hitorigaisha.kaichen.dev](https://hitorigaisha.kaichen.dev).
 
 Plain static HTML and CSS. No build step, no dependencies.
 

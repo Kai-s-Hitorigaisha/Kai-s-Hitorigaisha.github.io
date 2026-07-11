@@ -119,6 +119,32 @@ header nav a:hover {
 	margin-block-start: 0.5rem;
 }
 
+#latest {
+	margin-block-start: 2rem;
+}
+
+.badge {
+	display: inline-block;
+	padding: 0.65em 1.5em;
+	border: 1px solid var(--separator);
+	border-radius: 2em;
+	font-size: 0.95rem;
+	font-weight: 500;
+}
+
+.in-progress {
+	color: var(--secondary-text);
+	background: var(--card-background);
+	cursor: default;
+}
+
+.phase {
+	font-family: var(--mono);
+	font-size: 0.8rem;
+	color: var(--tertiary-text);
+	margin-block-start: 1rem;
+}
+
 
 /* == board ============================================================= */
 
