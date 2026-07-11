@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 🏢 Hitorigaisha OS project
+    url: https://github.com/Kai-s-Hitorigaisha/Hitorigaisha-OS/issues
+    about: Vision, roadmap, and implementation of Hitorigaisha OS — not the website
