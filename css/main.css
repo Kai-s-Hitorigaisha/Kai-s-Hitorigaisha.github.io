@@ -5,19 +5,21 @@
 :root {
 	color-scheme: light dark;
 
-	/* light background matches the logo's paper color */
-	--background: light-dark(#faf9f5, hsl(220, 18%, 7%));
+	--background: light-dark(white, hsl(220, 18%, 7%));
 	--text: light-dark(hsla(0, 0%, 0%, .85), hsla(0, 0%, 100%, .9));
 	--secondary-text: light-dark(hsla(0, 0%, 0%, .6), hsla(0, 0%, 100%, .62));
 	--tertiary-text: light-dark(hsla(0, 0%, 0%, .45), hsla(0, 0%, 100%, .45));
 	--separator: light-dark(hsla(0, 0%, 0%, .1), hsla(0, 0%, 100%, .12));
 	--card-background: light-dark(hsla(0, 0%, 0%, .03), hsla(0, 0%, 100%, .05));
-	--accent: light-dark(hsl(35, 100%, 30%), hsl(40, 100%, 55%));
+
+	/* the logo's seal red; lightened on dark surfaces for legibility */
+	--seal: #c73e2e;
+	--accent: light-dark(var(--seal), hsl(8, 72%, 62%));
 
 	/* the board is always dark; that's the product */
 	--board-bg: #0C0F14;
-	--board-amber: hsl(40, 100%, 60%);
-	--board-dim: hsla(40, 30%, 80%, .45);
+	--board-red: hsl(8, 72%, 62%);
+	--board-dim: hsla(8, 20%, 82%, .45);
 
 	--mono: ui-monospace, 'SF Mono', 'Menlo', 'Cascadia Mono', monospace;
 }
@@ -94,7 +96,7 @@ header nav a:hover {
 
 .logo {
 	border-radius: 24px;
-	box-shadow: 0 8px 32px light-dark(hsla(40, 15%, 20%, .18), hsla(0, 0%, 0%, .55));
+	box-shadow: 0 8px 32px light-dark(hsla(0, 10%, 20%, .18), hsla(0, 0%, 0%, .55));
 	margin-block-end: 1.5rem;
 }
 
@@ -169,8 +171,8 @@ header nav a:hover {
 	font-family: var(--mono);
 	font-size: 0.8rem;
 	line-height: 1.5;
-	color: var(--board-amber);
-	text-shadow: 0 0 10px hsla(40, 100%, 60%, .3);
+	color: var(--board-red);
+	text-shadow: 0 0 10px hsla(8, 63%, 48%, .35);
 	white-space: nowrap;
 }
 
@@ -188,13 +190,13 @@ header nav a:hover {
 	color: var(--board-dim);
 	text-shadow: none;
 	letter-spacing: 0.1em;
-	border-block-end: 1px solid hsla(40, 30%, 80%, .18);
+	border-block-end: 1px solid hsla(8, 20%, 82%, .18);
 	padding: 0.3rem 1.2rem 0.4rem 0;
 }
 
 #board td {
 	padding: 0.45rem 1.2rem 0.45rem 0;
-	border-block-end: 1px solid hsla(40, 30%, 80%, .08);
+	border-block-end: 1px solid hsla(8, 20%, 82%, .08);
 }
 
 #board tr > :last-child {
