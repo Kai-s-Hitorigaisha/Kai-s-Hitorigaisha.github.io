@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="img/logo-a-ichi.svg" width="112" height="112" alt="Kai's Hitorigaisha logo">
+</p>
+
 # Kai-s-Hitorigaisha.github.io
 
 Landing page for **Kai's Hitorigaisha** — a one-person project where AI agents work as real coworkers. Lives at [hitorigaisha.kaichen.dev](https://hitorigaisha.kaichen.dev).
