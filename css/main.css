@@ -100,13 +100,6 @@ header nav a:hover {
 	margin-block-end: 1.5rem;
 }
 
-.kanji {
-	font-size: 1.1rem;
-	letter-spacing: 0.6em;
-	margin-inline-start: 0.6em; /* recenter: letter-spacing trails the last glyph */
-	color: var(--tertiary-text);
-}
-
 #top h1 {
 	font-family: var(--mono);
 	font-size: 2.6rem;
